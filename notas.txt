@@ -1,0 +1,28 @@
+paso 1- creo un git y me clono el proyecto
+
+paso 2- creo un entorno virtual,
+
+python -m venv venv
+
+o cuando clonas un proyecto.
+
+paso 3- activar el entorno virtual
+
+paso3.1 entrar a la carpeta entorno virtual cd (venv)
+
+paso 3.2 comando: scripts activate a la altura de carpeta venv
+
+paso 3.3 cd.. para volver  a la raiz del proyecto
+
+44 una vez con el entorno virtual activo, vamos a ver las dependendencias
+
+pip list dependencias por defecto
+
+
+pip freeze > .\requirements.txt
+
+no tiene nada, cada vez que vamos crear dependencias
+
+(venv) PS C:\proyectos\CURSOS\python\proyecto_inmobiliaria> 
+
+instalo: pip install Django
