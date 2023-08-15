@@ -4,9 +4,13 @@ Sistema inmobiliario de caja
 
 ## How to install
 
-0- crear git
-1- python -m venv venv
-2- cd venv
-3- Scripts\activate
-4- cd..
-5- pip install
+```
+1- Clonar proyecto
+2- cd proyecto_inmobiliaria
+3- git checkout develop
+4- python -m venv venv
+5- cd venv
+6- Scripts\activate
+7- cd..
+8- pip install
+```
