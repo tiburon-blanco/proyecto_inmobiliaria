@@ -1,0 +1,17 @@
+Listado
+
+<table>
+    <tr>
+        <td>Calle</td>
+        <td>Nro</td>
+        <td>Tipo</td>
+    </tr>
+{% for propiedad in propiedades %}
+    <tr>
+        <td>{{propiedad.calle}}</td>
+        <td>{{propiedad.numero}}</td>
+        <td>{{propiedad.tipoPropiedad.nombre}}</td>
+    </tr>
+{% endfor %}
+</table>
+<a href="/propiedad/create">Crear nueba propiedad</a>
